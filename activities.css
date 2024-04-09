@@ -94,7 +94,6 @@ main {
 #activities {
   width: 100%;
   height: auto;
-  margin: 2.5rem;
   background: #D9D9D9;
 }
 
@@ -109,55 +108,170 @@ main {
 }
 .camel_1 img {
   width: 100%;
-  height: 80vh;
+  height: 30vw;
 }
 .camel_2 {
   width: 50%;
   height: auto;
 }
 .camel_2 h1 {
-  
+  margin-left: 4vw;
+  font-size: 2.4vw;
+  margin-top: 6vw;
 }
 .camel_2 p {
-  margin: 10vh 30vh 0 14vh;
-  font-size: 5.4vh;
+  margin: 3vw 10vw 0 4vw;
+  font-size: 1.7vw;
 }
 
 
 .quad {
-
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 .quad_1 {
-
+  width: 50%;
+  height: auto;
 }
 .quad_1 h1 {
-
+  margin-left: 4vw;
+  font-size: 2.4vw;
+  margin-top: 6vw;
 }
 .quad_1 p {
-
+  margin: 3vw 10vw 0 4vw;
+  font-size: 1.7vw;
 }
 .quad_2 {
-
+  width: 50%;
+  height: auto;
 }
 .quad_2 img {
-
+  width: 100%;
+  height: 30vw;
 }
 
 .spa {
-
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 .spa_1 {
-
+  width: 50%;
+  height: auto;
 }
 .spa_1 img {
-
+  width: 100%;
+  height: 30vw;
 }
 .spa_2 {
-
+  width: 50%;
+  height: auto;
 }
 .spa_2 h1 {
-
+  margin-left: 4vw;
+  font-size: 2.4vw;
+  margin-top: 6vw;
 }
 .spa_2 p {
+  margin: 3vw 10vw 0 4vw;
+  font-size: 1.7vw;
+}
 
+/*FOOTER*/
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+}
+
+#h_footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 2.5rem;
+}
+
+.paie {
+  background: #D9D9D9;
+  width: 56%;
+  height: auto;
+  margin-bottom: auto;
+  margin-right: 3rem;
+  padding-bottom: 1.5rem;
+}
+.paie h1 {
+  font-family: Just Me Again Down Here;
+  font-size: 2.5rem;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 1.5rem;
+}
+
+.i_paie {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.i_paie img {
+  height: 6rem;
+  width: 8rem;
+  padding: 1.5rem;
+  border-radius: 3rem;
+}
+
+.reseaux {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: -12rem;
+}
+.reseaux li {
+  list-style: none;
+  font-family: Just Me Again Down Here;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.reseaux img {
+  width: 4rem;
+  height: auto;
+}
+
+.mentions {
+  margin: 2rem;
+  width: 56%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: -6.3rem;
+}
+.mentions p {
+  font-family: Just Me Again Down Here;
+  font-size: 1.9rem;
+  font-weight: 400;
+  padding-left: 3rem;
+}
+aside {
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+aside img {
+  width: 10%;
+  height: 6rem;
+}
+aside h1 {
+  font-family: Jim Nightshade;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 0.3rem;
+  position: relative;
+  top: 2rem;
 }
