@@ -73,11 +73,27 @@ main {
   margin: 4rem;
 }
 
-#slide_img {
+#b_slide {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  display: flex;
+}
+.slide_img {
   width: 100%;
+  height: auto;
 }
 .i_slide {
   width: 100%;
+  height: 120vh;
+}
+#b_slide button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 10vw;
+  color: #f6bb06;
+  text-shadow: 8px 6px sandybrown;
 }
 
 .resume {

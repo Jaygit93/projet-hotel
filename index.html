@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
   <title>Page d'accueil</title>
 </head>
 
@@ -29,8 +28,12 @@
 
   <main>
 
-    <div id="slide_img">
-      <img src="images/main_img.png" class="i_slide">
+    <div id="b_slide">
+      <button class="pre" onclick="prev()">&#10094</button>
+      <div class="slide_img">
+        <img src="images/main_img.png" class="i_slide">
+      </div>
+      <button class="nex" onclick="next()">&#10095</button>
     </div>
 
     <article class="resume">
@@ -129,7 +132,7 @@
     </div>
 
   </footer>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
