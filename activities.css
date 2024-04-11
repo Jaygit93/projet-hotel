@@ -32,20 +32,66 @@ label, #toggle {
 }
 
 .nav_bar {
-    margin-top: 1.6rem;
+  margin-top: 3.5vw;
 }
 .nav_link {
   background: #1D56E8A6;
   box-shadow: 5px 4px 4px 0px #1D56E89C;
   font-family: Jim Nightshade;
-  font-size: 1.6vw;
+  font-size: 2vw;
   font-weight: 400;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1vw 2vw 1vw 2vw;
   color: #F7ECEC;
-  border-radius: 1rem;
+  border-radius: 1vw;
   text-transform: uppercase;
-  margin: 0rem 2rem 0rem 0rem;
+  margin: 0vw 2VW 0 2vw;
 }
+
+/* Partie responsive de la navbar */
+@media screen and (max-width:768px) {
+  nav .nav_bar {
+    flex-direction: column;
+    background-color: #b1b8e4;
+    z-index: 2;
+    width: 34%;
+}
+  nav .nav_bar a {
+      width: 80%;
+      margin: 7vw 4vw -4vw 0;
+      padding: 2vw 0 2vw 0px;
+}
+  label {
+    width: 10vw;
+    display: flex;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #001bff;
+    cursor: pointer;
+    justify-content: center;
+    position: absolute;
+    right: 8vw;
+}
+
+  #toggle:checked+.nav_bar {
+    display: flex;
+    padding-bottom: 8vw;
+    border: 1px solid black;
+    margin-right: 17vw;
+    margin-top: 3vw;
+    position: absolute;
+}
+  .nav_link {
+    background: #1139ffa6;
+    box-shadow: 4px 4px 4px 0px #1D56E89C;
+    font-family: Jim Nightshade;
+    font-size: 3.6vw;
+    font-weight: 400;
+    color: #a3d7ff;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+}
+
 
 header img {
   border-radius: 2rem 2rem 2rem 2rem;
@@ -64,7 +110,6 @@ header h1 {
   margin-top: 1.5rem;
   padding-bottom: 1rem;
 }
-
 
 /* MAIN */
 main {
