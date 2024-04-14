@@ -54,6 +54,7 @@ label, #toggle {
     background-color: #b1b8e4;
     z-index: 2;
     width: 34%;
+    display: none;
 }
   nav .nav_bar a {
       width: 80%;
@@ -138,8 +139,8 @@ main {
   background: none;
   border: none;
   font-size: 10vw;
-  color: #f6bb06;
-  text-shadow: 8px 6px sandybrown;
+  color: #0678f6;
+  text-shadow: 0.5vw 0.5vw #0021f5;
 }
 
 .resume {
