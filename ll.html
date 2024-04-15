@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Réservation d'hôtel</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css">
+<style>
+  .reservation-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .reservation-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="reservation-container">
+  <div class="reservation-item">
+    <h2>Date d'arrivée</h2>
+    <input type="text" id="dateArrivee" placeholder="Sélectionner la date" readonly>
+  </div>
+  <div class="reservation-item">
+    <h2>Date de départ</h2>
+    <input type="text" id="dateDepart" placeholder="Sélectionner la date" readonly>
+  </div>
+  <div class="reservation-item">
+    <h2>Activités</h2>
+    <select id="activites">
+      <option value="premium">Formule Premium</option>
+      <option value="confort">Formule Confort</option>
+    </select>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js"></script>
+<script>
+  const datepickerArrivee = new Datepicker(document.getElementById('dateArrivee'));
+  const datepickerDepart = new Datepicker(document.getElementById('dateDepart'));
+</script>
+
+</body>
+</html>

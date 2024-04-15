@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.liL {
+  display : inline-block;
+  text-align:left;
+  margin-left: 2%;
+  font-size: 1.5vw;
+  margin-top:15% ;
+}
+.liLEtoiles {
+  
+  text-align:left;
+  margin-left: 2%;
+  font-size: 1.5vw;
+}
+
+@font-face {
+    font-family: "JustMe";
+    src: url(JustMeAgainDownHere-Regular.ttf);
+}
+
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25.78fr 11.72fr 28.13fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "top"
+      "recherche"
+      "banner";
+  }
+  
+  .top { grid-area: top; }
+
+  .imgNav {
+    width: 100%;
+  }
+  
+  .recherche { grid-area: recherche;
+    justify-self: center;
+  }
+  
+  .recherche {
+    height: 49px;
+    width: 70%;
+    border-radius: 5vw;
+    
+}
+
+.hr {
+  align-self: center;
+  justify-self: center;
+  margin: 3%;
+  width: 90%;
+  border: 2px solid #000000;
+  border-radius: 10vw;
+}
+  
+  .banner { grid-area: banner;
+align-self: center;
+justify-self: center;
+}
+
+.banner img {
+    width: 91vw;
+}
+
+main {
+    font-family: "JustMe";
+}
+
+.justme {
+  font-family: "JustMe";
+}
+.container2 {  display: grid;
+    grid-template-columns: 32.5% 61%;
+    grid-template-rows: 1fr;
+    gap: 0% 3%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "columnLeft columnRight";
+      margin-left: 2% ;
+      margin-top: 3%;    
+  }
+  
+  .columnLeft { grid-area: columnLeft; 
+    padding: 0 5.65% 0 5.65% ;
+    background-color:#D9D9D9;
+    border-radius: 2vw;
+}
+  
+  .sectionL {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff ;
+    border-radius: 2vw;
+    padding: 1%;
+    margin: 0  0 20% 0;
+  }
+
+  .bestsuite {
+    margin: 4% 0 8% 0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5vw;
+  }
+
+  .chambreLeftTitre {
+    margin: 4% 0 4% 0;
+    text-align: center;
+    
+    font-size: 2.5vw;
+  }
+
+  .bestsuite2 {
+    margin: 2%;
+    text-align: center;
+    font-size: 2.2vw;
+  }
+
+  .fotosChambreLeft {
+    width:100%;
+  }
+ 
+  .etoiles {
+    color: yellow;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+  }
+
+
+  .columnRight { grid-area: columnRight; 
+    padding: 0 5.65% 0 5.65% ;
+    background-color:#D9D9D9;
+    border-radius: 2vw;
+  }
+  
+  .fotosChambreRight {
+    width: 100%;
+    margin: 1% 3% 1% 1%;
+  }
+
+  .bestsuite3 {
+    font-size: 2.5vw;
+    
+  }
+
+  .sectionR {
+    display: flex;
+    flex-wrap: nowrap;
+height: 25vw;
+    margin-bottom: 5%;
+    
+    background-color: #ffffff ;
+    border-radius: 2vw;
+    padding: 1%;
+    
+  }
+
+  .noschambres {
+    margin: 4% 0 6% 0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5vw;
+  }
+
+  .liR {
+    display : inline-block;
+    text-align:left;
+    margin-left: 2%;
+    font-size: 1.5vw;
+   margin-top: 39%;
+  }
+
+/* PRODUIT ---------------------------------------------------------------------------------------------------- */
+
+.containerP {  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.3% 0.9% 0.5% 0.4%;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "nav"
+    "input"
+    "banner"
+    "footer";
+}
+
+.nav { grid-area: nav; }
+
+.input { grid-area: input; 
+  
+}
+
+.divInput {
+    display: flex;  /* le trio gagant (pour centrer) */
+    justify-content: center;
+    align-items: center;
+  
+  margin: 10vh auto;
+  padding: 5vh 5vw;
+  background-color: #D9D9D9;
+  width: 80vw;
+  height: 80vh;
+  
+}
+
+.banner { grid-area: banner; }
+
+.footer { grid-area: footer; }
+
+
+
+
+
+
+
+
