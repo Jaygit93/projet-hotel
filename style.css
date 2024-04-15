@@ -14,6 +14,7 @@ hr {
   background-color: black;
 }
 
+
 /* Header */
 header {
   width: 100%;
@@ -247,13 +248,13 @@ section {
 }
 .room_t h1 {
   font-family: Jim Nightshade;
-  font-size: 2.5vw;
+  font-size: 2.7vw;
   font-weight: 400;
   text-align: center;
 }
 .room_t p {
   font-family: Jim Nightshade;
-  font-size: 1.62vw;
+  font-size: 1.8vw;
   font-weight: 400;
   margin: 3vw;
 }

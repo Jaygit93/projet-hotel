@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="activities.css">
-  <script src="script.js"></script>
-  <title>Page d'accueil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+  <title>Page des activités</title>
 </head>
 
 <body>
+  <!-- HEADER -->
   <header>
     <nav>
       <label for="toggle">☰</label>
-        <input type="checkbox" id="toggle">
-        <div class="nav_bar">
-            <a href="index.html" class="nav_link">Accueil</a>
-            <a href="#" class="nav_link">Chambres</a>
-            <a href="activities.html" class="nav_link">Activites</a>
-            <a href="#" class="nav_link">Reservations</a>
-        </div>
+      <input type="checkbox" id="toggle">
+      <div class="nav_bar">
+        <a href="index.html" class="nav_link">Accueil</a>
+        <a href="room.html" class="nav_link">Chambres</a>
+        <a href="activities.html" class="nav_link">Activites</a>
+        <a href="produit.html" class="nav_link">Reservations</a>
+      </div>
     </nav>
 
     <img src="images/logond.png">
     <h1>Hotel D&N Africa United</h1>
 
   </header>
+
+  <!-- MAIN -->
   <main>
 
+    <!-- Search bar -->
     <div class="search">
       <input type="text" class="search__input" placeholder="Type your text">
       <button class="search__button">
@@ -36,34 +41,22 @@
               </g>
           </svg>
       </button>
-  </div>
-
-  <div class="wrapp">
-    <div class="search-input">
-      <a href="" target="_blank" hidden></a>
-      <input type="text" placeholder="Type to search..">
-      <div class="autocom-box">
-        <li>Balade à dos de chameaux</li>
-        <li>Conduite de quad</li>
-        <li>Spa, Jacuzzi, Piscine</li>
-      </div>
-      <div class="icon"><i class="fas fa-search"></i></div>
     </div>
-  </div>
 
   <hr class="ha">
 
     <!-- Slide lightbow -->
     <div class="wrapper">
       <div class="gallery">
-        <div class="image"><span><img src="images/jacuzzi.jpg" alt=""></span></div>
-        <div class="image"><span><img src="images/bal_2.jpg" alt=""></span></div>
-        <div class="image"><span><img src="images/spa.jpg" alt=""></span></div>
-        <div class="image"><span><img src="images/bg_hotel.jpg" alt=""></span></div>
-        <div class="image"><span><img src="images/main_img.png" alt=""></span></div>
-        <div class="image"><span><img src="images/piscine.jpg" alt=""></span></div>
+        <div class="image"><span><img src="images/jacuzzi.jpg"></span></div>
+        <div class="image"><span><img src="images/bal_2.jpg"></span></div>
+        <div class="image"><span><img src="images/spa.jpg"></span></div>
+        <div class="image"><span><img src="images/sandboard.jpg"></span></div>
+        <div class="image"><span><img src="images/walk.jpg"></span></div>
+        <div class="image"><span><img src="images/moto.jpg"></span></div>
       </div>
     </div>
+
     <div class="preview-box">
       <div class="details">
         <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
@@ -80,6 +73,7 @@
 
     <h1 class="t_main">NOS ACTIVITES</h1>
 
+    <!-- SECTION ACTIVITES-->
     <section id="activities">
 
       <div class="camel">
@@ -112,12 +106,12 @@
         </div>
       </div>
       </div>
-
     </section>
-
   </main>
 
    <hr>
+
+  <!-- FOOTER -->
   <footer>
 
     <article id="h_footer">
@@ -157,8 +151,6 @@
     </div>
 
   </footer>
-  <script src="lightbox.js"></script>
-  <script src="filter.js"></script>
-  <script src="sugg.js"></script>
+  <script src="lightbow.js"></script>
 </body>
 </html>
