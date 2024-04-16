@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="activities.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+  <title>Page des activités</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <label for="toggle">☰</label>
+      <input type="checkbox" id="toggle">
+      <div class="nav_bar">
+        <a href="index.html" class="nav_link">Accueil</a>
+        <a href="room.html" class="nav_link">Chambres</a>
+        <a href="activities.html" class="nav_link">Activites</a>
+        <a href="produit.html" class="nav_link">Reservations</a>
+      </div>
+    </nav>
+
+    <img src="images/logond.png">
+    <h1>Hotel D&N Africa United</h1>
+
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- Search bar -->
+    <div class="search">
+      <input type="text" class="search__input" placeholder="Type your text">
+      <button class="search__button">
+          <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
+              <g>
+                  <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+              </g>
+          </svg>
+      </button>
+    </div>
+
+  <hr class="ha">
+
+    <!-- Slide lightbow -->
+    <div class="wrapper">
+      <div class="gallery">
+        <div class="image"><span><img src="images/jacuzzi.jpg"></span></div>
+        <div class="image"><span><img src="images/bal_2.jpg"></span></div>
+        <div class="image"><span><img src="images/spa.jpg"></span></div>
+        <div class="image"><span><img src="images/sandboard.jpg"></span></div>
+        <div class="image"><span><img src="images/walk.jpg"></span></div>
+        <div class="image"><span><img src="images/moto.jpg"></span></div>
+      </div>
+    </div>
+
+    <div class="preview-box">
+      <div class="details">
+        <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+        <span class="icon fas fa-times">x</span>
+      </div>
+      <div class="image-box">
+        <div class="slide prev"><i class="fas fa-angle-left">&#10094</i></div>
+        <div class="slide next"><i class="fas fa-angle-right">&#10095</i></div>
+        <img src="" alt="">
+      </div>
+    </div>
+    <div class="shadow"></div>
+    <!-- Fin -->
+
+    <h1 class="t_main">NOS ACTIVITES</h1>
+
+    <!-- SECTION ACTIVITES-->
+    <section id="activities">
+
+      <div class="camel">
+        <div class="camel_1">
+          <img src="images/chameau.jpg">
+        </div>
+        <div class="camel_2">
+          <h1>Balade à dos de chameaux</h1>
+          <p>Préparez-vous à une expérience sensorielle incomparable en découvrant les paysages envoûtants du désert de Tunisie lors d'une balade paisible à dos de chameau.</p>
+        </div>
+      </div>
+
+      <div class="quad">
+        <div class="quad_1">
+          <h1>Conduite de quad</h1>
+          <p>Envie de vivre une montée d'adrénaline dans le désert tunisien ? Optez pour une excursion en quad à travers les dunes spectaculaires !</p>
+        </div>
+        <div class="quad_2">
+          <img src="images/bal_1.jpg">
+        </div>
+      </div>
+
+      <div class="spa">
+        <div class="spa_1">
+          <img src="images/piscine.jpg">
+        </div>
+        <div class="spa_2">
+          <h1>Spa, Jacuzzi, Piscine</h1>
+          <p>Après avoir exploré les beautés du désert, accordez-vous un moment de pure détente dans notre spa luxueux, où vous pourrez vous détendre dans le jacuzzi et vous rafraîchir dans la piscine à votre guise.</p>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+   <hr>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <article id="h_footer">
+      <div class="paie">
+        <h1>Moyens de paiement</h1>
+
+        <div class="i_paie">
+          <img src="images/american_express.png">
+          <img src="images/mastercard.png">
+          <img src="images/paypal-logo.webp">
+          <img src="images/visa.png">
+        </div>
+
+      </div>
+
+      <aside>
+        <img src="images/hotel_logo.png">
+        <h1>Nos Hôtels</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d65318087.96458244!2d23.59146644999997!3d2.2655324000000077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1712332712500!5m2!1sfr!2sfr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </aside>
+
+      <ul class="reseaux">
+        <li><img src="images/meta.png">&nbsp&nbsp&nbsp<a href="https://about.meta.com/fr/">Meta</a></li>
+        <li><img src="images/instagram.png">&nbsp&nbsp&nbsp<a href="https://www.instagram.com/">Instagram</a></li>
+        <li><img src="images/pinterest.png">&nbsp&nbsp&nbsp<a href="https://www.pinterest.fr/">Pinterest</a></li>
+      </ul>
+
+    </article>
+
+    <div class="mentions">
+      <p>Nous Contacter</p>
+      <p>Mentions Légales</p>
+      <p>Tous droits réservés</p>
+    </div>
+
+  </footer>
+  <script src="lightbow.js"></script>
+</body>
+</html>
