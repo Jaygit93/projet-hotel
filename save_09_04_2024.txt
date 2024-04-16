@@ -1,0 +1,272 @@
+produit -------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Produits</title>
+</head>
+
+<body><script src="script.js"></script>
+
+
+    <main class="containerP">
+
+        <div class="nav">
+
+            <img src="img\HEADER.png" alt="">
+
+        </div>
+
+                <i class="star">&#9733;</i>
+                <i class="star">&#9733;</i>
+                <i class="star">&#9733;</i>
+                <i class="star">&#9733;</i>
+                <i class="star">&#9733;</i>
+
+        <div class="input">
+
+            <div class="divInput">
+
+                
+
+                
+
+            </div>
+
+        </div>
+        <div class="banner"></div>
+        <div class="footer"></div>
+
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+Index--------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hotel</title>
+</head>
+<body>
+
+
+    <header class="container">
+
+        <div class="top">
+            <img class="imgNav" src="img\HEADER.png" alt="nav">
+        </div>
+
+        <div class="recherche">
+
+            <form>
+                <div>
+                  
+                  <input class="recherche"
+                    type="search"
+                    id="mySearch"
+                    name="q"
+                    placeholder="Recherche ..."
+                    required
+                    size="30"
+                    minlength="1"
+                    maxlength="30" />
+                  <button>Rechercher</button>
+                  <span class="validity"></span>
+                </div>
+              </form>
+              
+              <hr class="hr" />
+        </div>
+
+        <div class="banner">
+            <img src="/img/imgBanner.png" alt="img banner">
+        </div>
+        
+
+    </header>
+
+
+    <main class="container2">
+
+        <div class="columnLeft">
+            <p class="bestsuite">BEST SUITE</p>
+            <section class="sectionL">
+                <div><img class="fotosChambreLeft" src="img\img chambre1 1.png" alt="chambre"></div>
+                <p class="chambreLeftTitre">CHAMBRE SUPÉRIEURE</p>
+                
+                <ul>
+                    <li class="liL">2 adultes</li>
+                    <li class="liL">salle de bain</li>
+                    <li class="liL">terrace</li>
+                </ul>
+                <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            </section>
+
+            <section class="sectionL">
+                <div><img class="fotosChambreLeft" src="img\img chambre 2.png" alt="chambre"></div>
+                <p class="chambreLeftTitre">CHAMBRE SUPÉRIEURE</p>
+                
+                <ul>
+                    <li class="liL">2 adultes</li>
+                    <li class="liL">salle de bain</li>
+                    <li class="liL">terrace</li>
+                </ul>
+                <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            </section>
+
+            <section class="sectionL">
+                <div><img class="fotosChambreLeft" src="img\img chambre 3.png" alt="chambre"></div>
+                <p class="chambreLeftTitre">CHAMBRE SUPÉRIEURE</p>
+                
+                <ul>
+                    <li class="liL">2 adultes</li>
+                    <li class="liL">salle de bain</li>
+                    <li class="liL">terrace</li>
+                </ul>
+                <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            </section>
+
+            <section class="sectionL">
+                <div><img class="fotosChambreLeft" src="img\img chambre 4.png" alt="chambre"></div>
+                <p class="chambreLeftTitre">CHAMBRE SUPÉRIEURE</p>
+                
+                <ul>
+                    <li class="liL">2 adultes</li>
+                    <li class="liL">salle de bain</li>
+                    <li class="liL">terrace</li>
+                </ul>
+                <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            </section>
+
+        </div>
+
+
+        <div class="columnRight">
+
+            <p class="noschambres">NOS CHAMBRES</p>
+
+            <section class="sectionR">
+                
+                    <img class="fotosChambreRight" src="img\img chambre1 2.png" alt="chambre">
+
+                <div>
+                <p class="bestsuite3">CHAMBRE SUPÉRIEURE</p>
+                
+                <ul>
+                    <li class="liR">2 adultes</li>
+                    <li class="liR">salle de bain</li>
+                    <li class="liR">terrace</li>
+                </ul>
+                <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                </div>
+            </section>
+            
+        
+
+        
+
+            
+
+                <section class="sectionR">
+                
+                    <img class="fotosChambreRight" src="img\img chambre1 3.png" alt="chambre">
+
+                 <div>
+                 <p class="bestsuite3">CHAMBRE SUPÉRIEURE</p>
+                
+                    <ul>
+                    <li class="liR">2 adultes</li>
+                    <li class="liR">salle de bain</li>
+                    <li class="liR">terrace</li>
+                    </ul>
+                     <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    </div>
+                 </section>
+
+               <section class="sectionR">
+                
+                <img class="fotosChambreRight" src="img\img chambre1 4.png" alt="chambre">
+
+            <div>
+            <p class="bestsuite3">CHAMBRE SUPÉRIEURE</p>
+            
+            <ul>
+                <li class="liR">2 adultes</li>
+                <li class="liR">salle de bain</li>
+                <li class="liR">terrace</li>
+            </ul>
+            <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+            </div>
+        </section>
+
+        <section class="sectionR">
+                
+            <img class="fotosChambreRight" src="img\img chambre1 5.png" alt="chambre">
+
+        <div>
+        <p class="bestsuite3">CHAMBRE SUPÉRIEURE</p>
+        
+        <ul>
+            <li class="liR">2 adultes</li>
+            <li class="liR">salle de bain</li>
+            <li class="liR">terrace</li>
+        </ul>
+        <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+        </div>
+    </section>
+
+    <section class="sectionR">
+                
+        <img class="fotosChambreRight" src="img\img chambre1 6.png" alt="chambre">
+
+    <div>
+    <p class="bestsuite3">CHAMBRE SUPÉRIEURE</p>
+    
+    <ul>
+        <li class="liR">2 adultes</li>
+        <li class="liR">salle de bain</li>
+        <li class="liR">terrace</li>
+    </ul>
+    <p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+    </div>
+</section>
+
+<section class="sectionR">
+                
+    <img class="fotosChambreRight" src="img\img chambre1 7.png" alt="chambre">
+
+<div>
+<p class="bestsuite3">CHAMBRE SUPÉRIEURE</p>
+
+<ul>
+    <li class="liR">2 adultes</li>
+    <li class="liR">salle de bain</li>
+    <li class="liR">terrace</li>
+</ul>
+<p class="etoiles">&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+</div>
+</section>
+
+
+            
+        </div>
+        
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
