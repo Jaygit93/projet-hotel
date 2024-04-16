@@ -5,20 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
   <title>Page d'accueil</title>
 </head>
 
 <body>
+  <!-- HEADER -->
   <header>
     <nav>
       <label for="toggle">☰</label>
       <input type="checkbox" id="toggle">
       <div class="nav_bar">
         <a href="index.html" class="nav_link">Accueil</a>
-        <a href="#" class="nav_link">Chambres</a>
+        <a href="room.html" class="nav_link">Chambres</a>
         <a href="activities.html" class="nav_link">Activites</a>
-        <a href="#" class="nav_link">Reservations</a>
+        <a href="produit.html" class="nav_link">Reservations</a>
       </div>
     </nav>
 
@@ -27,10 +28,15 @@
 
   </header>
 
+  <!-- MAIN -->
   <main>
 
-    <div id="slide_img">
-      <img src="images/main_img.png" class="i_slide">
+    <div id="b_slide">
+      <button class="pre" onclick="prev()">&#10094</button>
+      <div class="slide_img">
+        <img src="images/main_img.png" class="i_slide">
+      </div>
+      <button class="nex" onclick="next()">&#10095</button>
     </div>
 
     <article class="resume">
@@ -63,10 +69,11 @@
     </article>
   </main>
 
+  <!-- SECTION ROOM -->
   <section id="room">
     <div class="room_img">
       <img src="images/bg_hotel.jpg">
-      <img src="images/r_hotel.jpg">
+      <img src="images/r_room.jpg">
     </div>
     <div class="room_t">
       <h1>Les chambres de l'Hôtel</h1>
@@ -86,7 +93,10 @@
 
     </div>
   </section>
+
   <hr>
+
+  <!-- FOOTER -->
   <footer>
 
     <article id="h_footer">
@@ -119,9 +129,6 @@
 
     </article>
 
-
-
-
     <div class="mentions">
       <p>Nous Contacter</p>
       <p>Mentions Légales</p>
@@ -129,7 +136,7 @@
     </div>
 
   </footer>
-
+  <script src="script.js"></script>
 </body>
 
 </html>

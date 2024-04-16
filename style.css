@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+hr {
+  padding: 0.5rem;
+  background-color: black;
+}
+
+
+/* Header */
+header {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(90deg, #504AFF 0%, #FFFFFF 100%);
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+label, #toggle {
+  display: none ;
+}
+
+.nav_bar {
+  margin-top: 3.5vw;
+}
+.nav_link {
+  background: #1D56E8A6;
+  box-shadow: 5px 4px 4px 0px #1D56E89C;
+  font-family: Jim Nightshade;
+  font-size: 2vw;
+  font-weight: 400;
+  padding: 1vw 2vw 1vw 2vw;
+  color: #F7ECEC;
+  border-radius: 1vw;
+  text-transform: uppercase;
+  margin: 0vw 2VW 0 2vw;
+}
+
+/* Partie responsive de la navbar */
+@media screen and (max-width:768px) {
+  nav .nav_bar {
+    flex-direction: column;
+    background-color: #b1b8e4;
+    z-index: 2;
+    width: 34%;
+    display: none;
+}
+  nav .nav_bar a {
+      width: 80%;
+      margin: 7vw 4vw -4vw 0;
+      padding: 2vw 0 2vw 0px;
+}
+  label {
+    width: 10vw;
+    display: flex;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #001bff;
+    cursor: pointer;
+    justify-content: center;
+    position: absolute;
+    right: 8vw;
+}
+
+  #toggle:checked+.nav_bar {
+    display: flex;
+    padding-bottom: 8vw;
+    border: 1px solid black;
+    margin-right: 17vw;
+    margin-top: 3vw;
+    position: absolute;
+}
+  .nav_link {
+    background: #1139ffa6;
+    box-shadow: 4px 4px 4px 0px #1D56E89C;
+    font-family: Jim Nightshade;
+    font-size: 3.6vw;
+    font-weight: 400;
+    color: #a3d7ff;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+}
+
+
+header img {
+  border-radius: 2rem 2rem 2rem 2rem;
+  width: 15%;
+  height: 13vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vw;
+}
+header h1 {
+  font-family: Jim Nightshade;
+  font-size: 4vw;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+
+/* Main */
+main {
+  width: auto;
+  height: auto;
+  margin: 4vw;
+}
+
+#b_slide {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  display: flex;
+}
+.slide_img {
+  width: 100%;
+  height: auto;
+}
+.i_slide {
+  width: 100%;
+  height: 45vw;
+}
+#b_slide button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 10vw;
+  color: #0678f6;
+  text-shadow: 0.5vw 0.5vw #0021f5;
+}
+
+.resume {
+  width: auto;
+  height: auto;
+  margin: 4vw;
+  margin-top: 2vw;
+  margin-bottom: -25vw;
+} 
+.logo_img {
+  border-radius: 2rem 2rem 2rem 2rem;
+  width: 13%;
+  height: 8vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.t_resume {
+  font-family: Jim Nightshade;
+  font-size: 3vw;
+  font-weight: 400;
+  text-align: center;
+}
+.resume p {
+  font-family: Jim Nightshade;
+  font-size: 1.9vw;
+  font-weight: 400;
+  line-height: 34.01px;
+  text-align: left;
+  margin: 4vw;
+  margin-top: 0rem;
+}
+.tuni_resume {
+  width: 70%;
+  height: 14vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2vw;
+}
+
+.balade {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 3vw 0vw 0vw 5vw;
+}
+.balade img {
+  width: 100%;
+  height: 13vw;
+  border-radius: 1rem;
+}
+
+.pfs {
+  background: #1D56E8A6;
+  border-radius: 1rem;
+  width: 55%;
+  height: 27vw;
+  position: relative;
+  top: -28.7vw;
+  left: 45%;
+}
+.pfs h1 {
+  font-family: Jim Nightshade;
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  padding-top: 1.5vw;
+}
+.l_pfs li {
+  font-family: Jim Nightshade;
+  font-size: 1.7vw;
+  font-weight: 400;
+  margin-top: 2.8vw;
+  color: #fff;
+}
+
+
+/*SECTION*/
+section {
+  width: 95%;
+  margin: 2.5vw;
+  height: auto;
+  display: flex;
+}
+
+.room_img {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+}
+.room_img img {
+  width: 100%;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.room_t {
+  background: #D9D9D9;
+  width: 60%;
+  box-sizing: border-box;
+}
+.room_t h1 {
+  font-family: Jim Nightshade;
+  font-size: 2.7vw;
+  font-weight: 400;
+  text-align: center;
+}
+.room_t p {
+  font-family: Jim Nightshade;
+  font-size: 1.8vw;
+  font-weight: 400;
+  margin: 3vw;
+}
+
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  height: auto;
+  margin: 4vw 0 0 0;
+}
+
+#h_footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.paie {
+  background: #D9D9D9;
+  width: 56%;
+  height: auto;
+  margin-bottom: auto;
+  margin-right: 3vw;
+  padding-bottom: 1.5vw;
+  margin-left: 3vw;
+}
+.paie h1 {
+  font-family: Just Me Again Down Here;
+  font-size: 2.5vw;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 1.5vw;
+}
+
+.i_paie {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.i_paie img {
+  height: 6vw;
+  width: 8vw;
+  padding: 1.5vw;
+  border-radius: 3vw;
+}
+
+.reseaux {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: -12vw;
+}
+.reseaux li {
+  list-style: none;
+  font-family: Just Me Again Down Here;
+  font-size: 1.6vw;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 4vw;
+}
+
+.reseaux img {
+  width: 4vw;
+  height: auto;
+}
+
+.mentions {
+  margin: 2vw;
+  width: 56%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: -4.3vw;
+}
+.mentions p {
+  font-family: Just Me Again Down Here;
+  font-size: 1.9vw;
+  font-weight: 400;
+  padding-left: 3vw;
+}
+aside {
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+aside img {
+  width: 10%;
+  height: 6vw;
+}
+aside h1 {
+  font-family: Jim Nightshade;
+  font-size: 2vw;
+  font-weight: 400;
+  margin-left: 0.3vw;
+  position: relative;
+  top: 2vw;
+}
+aside iframe {
+  width: 100%;
+  height: 28vw;
+}
+
